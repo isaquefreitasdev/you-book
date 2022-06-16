@@ -3,6 +3,11 @@
    padding: 0;
    font-family: Arial, Helvetica, sans-serif;
 }
+html, body {
+   max-width: 100%;
+   overflow-x: hidden;
+   overflow-y: hidden
+}
 
 body {
    /* display: flex; */
@@ -91,6 +96,61 @@ img {
    cursor: pointer;
 }
 .container {
-   display: flex;
-   margin-top: 40px;
+   position: relative;
+   top: 20px;
+   display:inline;
+  
+   margin-top: 70px;
+   margin-bottom:-10px;
+}
+.books img{
+   
+}h1{
+   margin-left: 25px;
+}
+.books{
+   padding:20px;
+}
+.book-1 img{
+   position: relative;
+   left:10px;
+
+   width:200px;
+   height:200px;
+   
+}
+.book-2 img{
+   position: relative;
+   left:200px;
+   top: -200px;
+
+   width:250px;
+   height:230px;
+   
+}
+.book-3 img{
+   position: relative;
+   left:400px;
+   top: -420px;
+
+   width:250px;
+   height:230px;
+   
+}
+.book-4 img{
+   position: relative;
+   left:600px;
+   top: -660px;
+
+   width:250px;
+   height:250px;
+}
+.book-5 img{
+   position: relative;
+   left:800px;
+   top: -930px;
+
+   width:300px;
+   height:300px;
+
 }
