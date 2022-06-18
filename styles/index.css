@@ -6,7 +6,7 @@
 html, body {
    max-width: 100%;
    overflow-x: hidden;
-   overflow-y: hidden
+   
 }
 
 body {
@@ -76,7 +76,7 @@ div:hover > label {
 }
 
 img {
-  position: fixed;
+  position: absolute;
   left: 10px;
   top: 15px;
   width: 180px;
@@ -99,17 +99,70 @@ img {
    position: relative;
    top: 20px;
    display:inline;
+   height:100px;
   
    margin-top: 70px;
    margin-bottom:-10px;
 }
 .books img{
    
-}h1{
+}#top1{
    margin-left: 25px;
 }
 .books{
    padding:20px;
+}
+.book-1 img{
+   position: relative;
+   left:10px;
+
+   width:200px;
+   height:200px;
+   
+}
+.book-2 img{
+   position: relative;
+   left:200px;
+   top: -200px;
+
+   width:50%;
+   height:50%;
+   
+}
+.book-3 img{
+   position: relative;
+   left:400px;
+   top: -420px;
+
+   width:250px;
+   height:230px;
+   
+}
+.book-4 img{
+   position: relative;
+   left:600px;
+   top: -660px;
+
+   width:250px;
+   height:250px;
+}
+.book-5 img{
+   position: relative;
+   left:800px;
+   top: -930px;
+
+   width:300px;
+   height:300px;
+
+}
+.books{
+   padding:20px;
+   display: inline-block;
+   width:100%;
+   height:100%;
+}
+#top2{
+   margin-left: 25px;
 }
 .book-1 img{
    position: relative;
@@ -146,6 +199,59 @@ img {
    height:250px;
 }
 .book-5 img{
+   position: relative;
+   left:800px;
+   top: -930px;
+
+   width:300px;
+   height:300px;
+
+}.container2{
+   width: 100px;
+   height: 20%;
+   position: relative;
+   top: -920px;
+}
+.books2{
+   padding:20px;
+   width: ;
+   height: 100vh;
+}
+.book1 img{
+   position: relative;
+   left:10px;
+
+   width:200px;
+   height:200px;
+   
+}
+.book2 img{
+   position: relative;
+   left:200px;
+   top: -200px;
+
+   width:250px;
+   height:230px;
+   
+}
+.book3 img{
+   position: relative;
+   left:400px;
+   top: -420px;
+
+   width:250px;
+   height:230px;
+   
+}
+.book4 img{
+   position: relative;
+   left:600px;
+   top: -660px;
+
+   width:250px;
+   height:250px;
+}
+.book5 img{
    position: relative;
    left:800px;
    top: -930px;
